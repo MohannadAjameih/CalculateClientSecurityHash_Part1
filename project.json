@@ -1,5 +1,5 @@
 {
-  "name": "REF_Generate Yearly Report Dispatcher",
+  "name": "REF_Generate Yearly Report Part1",
   "projectId": "6e677eb6-f3b0-40bb-a3a4-b1c9ff404be7",
   "description": "A Dispatcher – using the REF without Queue Items design.",
   "main": "Main.xaml",
