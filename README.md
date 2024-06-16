@@ -1,7 +1,16 @@
-### Documentation is included in the Documentation folder ###
+
+### 1.0.0 Workflows
+ 
+1.0.1. System1_Login.xaml <br>
+1.0.2. System1_Close.xaml <br>
+1.0.3. System1_ NavigateTo_WI.xaml <br>
+1.0.4. System1_ ScrapeDataTable.xaml <br>
+1.0.5. System1_ FilterWIDataTable.xaml
 
 
-### REFrameWork Template ###
+
+
+
 **Robotic Enterprise Framework**
 
 * Built on top of *Transactional Business Process* template
@@ -29,11 +38,3 @@
 
 4. **END PROCESS**
  + ./Framework/*CloseAllApplications* - Logs out and closes applications used throughout the process
-
-
-### For New Project ###
-
-1. Check the Config.xlsx file and add/customize any required fields and values
-2. Implement InitiAllApplications.xaml and CloseAllApplicatoins.xaml workflows, linking them in the Config.xlsx fields
-3. Implement GetTransactionData.xaml and SetTransactionStatus.xaml according to the transaction type being used (Orchestrator queues by default)
-4. Implement Process.xaml workflow and invoke other workflows related to the process being automated
